@@ -13,6 +13,34 @@ background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, F
 
 }
 
+.navbar{
+    height: 5vh;
+    width: 100vw;
+    background-color: rgb(143, 139, 134);
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    position: sticky;
+    top: 0;
+}
+.navlinks{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    width: 45vw;
+    justify-content: end;
+}
+.navtitle{
+    width: 50vw;
+}
+.navlinks li{
+    color: red;
+}
+
+
 .container{
     height: 80vh;
     width: 35vw;
@@ -57,5 +85,10 @@ background: linear-gradient(to right, #E7E9BB, #403B4A); /* W3C, IE 10+/ Edge, F
     border-bottom: 4px solid rgb(60, 60, 63);
 }
 .login{
-    align-items: flex-end;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
 }
