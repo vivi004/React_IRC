@@ -1,0 +1,16 @@
+.nav-link:hover{
+    background-color: rgb(173, 157, 157);
+    border-radius: 40%;
+}
+.nav-link{
+    text-decoration: none;
+}
+.te{
+    display: flex;
+    align-items: flex-end;
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+
+}
